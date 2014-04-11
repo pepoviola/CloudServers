@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CloudServers", "CloudServers\CloudServers.vbproj", "{D2A8ECF9-8AD3-4CC8-B45E-54A5C994B7B9}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BE", "BE\BE.vbproj", "{57141FCE-5F3F-4487-B314-BB124940D507}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLL", "BLL\BLL.vbproj", "{6520E45A-22F6-4BC7-B00E-F0CAF068CC68}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAL", "DAL\DAL.vbproj", "{73D239F6-BFCF-4513-8248-FEBA204AC7C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +19,18 @@ Global
 		{D2A8ECF9-8AD3-4CC8-B45E-54A5C994B7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A8ECF9-8AD3-4CC8-B45E-54A5C994B7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A8ECF9-8AD3-4CC8-B45E-54A5C994B7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57141FCE-5F3F-4487-B314-BB124940D507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57141FCE-5F3F-4487-B314-BB124940D507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57141FCE-5F3F-4487-B314-BB124940D507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57141FCE-5F3F-4487-B314-BB124940D507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6520E45A-22F6-4BC7-B00E-F0CAF068CC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6520E45A-22F6-4BC7-B00E-F0CAF068CC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6520E45A-22F6-4BC7-B00E-F0CAF068CC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6520E45A-22F6-4BC7-B00E-F0CAF068CC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D239F6-BFCF-4513-8248-FEBA204AC7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D239F6-BFCF-4513-8248-FEBA204AC7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D239F6-BFCF-4513-8248-FEBA204AC7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D239F6-BFCF-4513-8248-FEBA204AC7C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
